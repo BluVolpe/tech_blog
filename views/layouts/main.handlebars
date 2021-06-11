@@ -9,7 +9,12 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Tech Blog</title>
   </head>
   <body>
@@ -17,18 +22,16 @@
       <nav>
         <a href="/">Home</a>
         <a href="/dashboard">Dashboard</a>
-        {{#if loggedIn}}
-          <a href="/">Logout</a>
-        {{else}}
-          <a href="/login">Login</a>
-        {{/if}}
+
+        <button id="logout" class="btn-no-style">Logout</button>
+
+        <a href="/login">Login</a>
+
       </nav>
     </header>
     {{{body}}}
 
-    {{#if loggedIn}}
-      <script src="/js/logout.js"></script>
-    {{/if}}
+    <script src="/js/logout.js"></script>
   </body>
 
 </html>

@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: grey;
+}
+
+nav {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+nav a {
+    font-size: 30px;
+    background-color: transparent;
+    border: solid 2px #57fc84;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #57fc84;
+    padding: 8px;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(101, 174, 220);
+}
+
+#logout {
+    font-size: 30px;
+    background-color: transparent;
+    border: solid 2px #57fc84;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #57fc84;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+#logout:hover {
+    color: white;
+    background-color: rgb(101, 174, 220);
+}
+
+#post {
+    border: solid 2px black;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+#postheader {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+#postTitle {
+    margin-right: 30px;
+    color: #57fc84;
+}
+
+#postContent {
+    font-size: 20px;
+}
+
+#singlepost {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#singleposttitle {
+    color: #57fc84;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+#postTitle {
+    margin-right: 40px;
+}
+
+.comment {
+    border: solid 2px black;
+    margin-bottom: 20px;
+    padding: 10px;
+}

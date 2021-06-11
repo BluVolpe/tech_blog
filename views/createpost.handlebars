@@ -1,0 +1,12 @@
+<div>
+  {{#if loggedIn}}
+    <h3>Title:</h3>
+    <input type="text" id="titleInput" />
+    Post:
+    <textarea name="post" id="postInput" cols="30" rows="10"></textarea>
+    <button id="postBtn" class="btn-no-style">Create Post</button>
+  {{else}}
+    <h3>Please log in to create a post</h3>
+  {{/if}}
+</div>
+<script src="/js/createpost.js"></script>
